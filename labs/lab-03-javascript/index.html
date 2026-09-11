@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Student Workshop Registration System</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <header>
+    <h1>Student Workshop Registration System</h1>
+    <p class="tagline">CSE472 &mdash; Web and Internet Programming Lab</p>
+  </header>
+
+  <main>
+
+    <!-- Workshop information section -->
+    <section class="workshop-info">
+      <h2>Workshop: Web Development Basics</h2>
+      <p>Join this hands-on workshop to learn the fundamentals of building websites with HTML, CSS and JavaScript.</p>
+
+      <div class="button-row">
+        <button type="button" onclick="checkRegistration()">Check Registration Status</button>
+        <button type="button" onclick="checkSeats()">Check Seat Availability</button>
+      </div>
+
+      <p id="registrationStatus">Click the button to check the status.</p>
+      <p id="seatMessage">Seat information will appear here.</p>
+    </section>
+
+    <!-- Registration form section -->
+    <section class="registration-form">
+      <h2>Register for the Workshop</h2>
+
+      <label for="studentName">Full Name</label>
+      <input type="text" id="studentName" name="studentName" placeholder="Enter your full name" required>
+
+      <div class="button-row">
+        <button type="button" onclick="showGreeting()">Show Greeting</button>
+      </div>
+
+      <p id="greetingMessage"></p>
+    </section>
+
+    <!-- Independent improvement: workshop reminder -->
+    <section class="reminder-section">
+      <h2>Workshop Reminder</h2>
+      <div class="button-row">
+        <button type="button" onclick="showReminder()">Show Workshop Reminder</button>
+      </div>
+      <p id="reminderMessage">Click the button to see the reminder.</p>
+    </section>
+
+  </main>
+
+  <footer>
+    <p> </p>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
