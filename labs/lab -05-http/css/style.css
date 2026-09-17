@@ -1,0 +1,82 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Segoe UI", Arial, sans-serif;
+  margin: 0;
+  background-color: #f4f6f8;
+  color: #1f2937;
+}
+
+header {
+  background-color: #0f2540;
+  color: #ffffff;
+  padding: 24px 20px;
+  text-align: center;
+}
+
+header h1 {
+  margin: 0 0 6px 0;
+  font-size: 1.6rem;
+}
+
+header p {
+  margin: 0;
+  color: #cbd5e1;
+  font-size: 0.95rem;
+}
+
+main {
+  max-width: 700px;
+  margin: 30px auto;
+  padding: 0 16px;
+}
+
+.card {
+  background-color: #ffffff;
+  border: 1px solid #dbe1e8;
+  border-radius: 8px;
+  padding: 20px 24px;
+  margin-bottom: 24px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.06);
+}
+
+.card h2 {
+  margin-top: 0;
+  color: #0f2540;
+  border-bottom: 2px solid #02211d;
+  display: inline-block;
+  padding-bottom: 4px;
+}
+
+button {
+  background-color: #054e45;
+  color: #ffffff;
+  border: none;
+  padding: 10px 18px;
+  border-radius: 6px;
+  font-size: 0.95rem;
+  cursor: pointer;
+  margin: 10px 0;
+}
+
+button:hover {
+  background-color: #035738;
+}
+
+#loadMessage {
+  font-weight: bold;
+  color: #0f2540;
+}
+
+#apiUser {
+  font-weight: bold;
+}
+
+footer {
+  text-align: center;
+  padding: 16px;
+  color: #6b7280;
+  font-size: 0.85rem;
+}
